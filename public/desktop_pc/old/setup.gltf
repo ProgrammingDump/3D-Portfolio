@@ -2144,77 +2144,77 @@
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material.074_32_baseColor",
-			"uri":"Material_074_32_baseColor.jpg"
+			"uri":"textures/Material_074_32_baseColor.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material.074_39_baseColor",
-			"uri":"Material_074_39_baseColor.jpg"
+			"uri":"textures/Material_074_39_baseColor.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material.024_baseColor",
-			"uri":"Material_024_baseColor.jpg"
+			"uri":"textures/Material_024_baseColor.jpg"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Material.074_35_baseColor",
-			"uri":"Material_074_35_baseColor.png"
+			"uri":"textures/Material_074_35_baseColor.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Material.074_33_baseColor",
-			"uri":"Material_074_33_baseColor.png"
+			"uri":"textures/Material_074_33_baseColor.png"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material.074_34_baseColor",
-			"uri":"Material_074_34_baseColor.jpg"
+			"uri":"textures/Material_074_34_baseColor.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material",
-			"uri":"Material.jpg"
+			"uri":"textures/Material.jpg"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"MainMonitoor",
-			"uri":"MainMonitoor.png"
+			"uri":"textures/MainMonitoor.png"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material",
-			"uri":"Material-1.jpg"
+			"uri":"textures/Material-1.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material",
-			"uri":"Material-2.jpg"
+			"uri":"textures/Material-2.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material",
-			"uri":"Material-3.jpg"
+			"uri":"textures/Material-3.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material",
-			"uri":"Material-4.jpg"
+			"uri":"textures/Material-4.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
 			"name":"Material",
-			"uri":"Material-5.jpg"
+			"uri":"textures/Material-5.jpg"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Material",
-			"uri":"Material.png"
+			"uri":"textures/Material.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Material",
-			"uri":"Material-1.png"
+			"uri":"textures/Material-1.png"
 		}
 	],
 	"accessors":[
@@ -4444,7 +4444,7 @@
 	"buffers":[
 		{
 			"byteLength":278652,
-			"uri":"scene.bin"
+			"uri":"setup.bin"
 		}
 	]
 }
