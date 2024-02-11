@@ -1,28 +1,22 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
-  typescript,
   html,
   css,
+  gg,
+  fiverr,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  auses,
+  rac,
+  graphixon,
+  abt,
+  qrm,
   threejs,
+  github,
 } from '../assets'
 
 export const navLinks = [
@@ -43,15 +37,19 @@ export const navLinks = [
 const services = [
   {
     title: 'Web Developer',
-    icon: web,
+    icon: html,
   },
   {
-    title: 'MERN Stack Developer',
+    title: 'Front-End Developer',
     icon: reactjs,
   },
   {
+    title: 'Back-End Developer',
+    icon: nodejs,
+  },
+  {
     title: 'Software Engineer',
-    icon: backend,
+    icon: github,
   },
 ]
 
@@ -67,10 +65,6 @@ const technologies = [
   {
     name: 'JavaScript',
     icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
   },
   {
     name: 'React JS',
@@ -100,36 +94,15 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ]
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
     title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2021 - Jan 2022',
+    company_name: 'AUSES',
+    icon: auses,
+    iconBg: '#162832',
+    date: 'Oct 2023 - Present',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -138,29 +111,42 @@ const experiences = [
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
+    title: 'Management Trainee',
+    company_name: 'Freelancer',
+    icon: qrm,
+    iconBg: '#ffffff',
+    date: 'Jul 2023 - Sept 2023',
+    points: [
+      'Engaged in managing WordPress websites, proficiently leveraging React.js and associated technologies for ongoing development and maintenance tasks.',
+      'Collaborating with skillfull individuals including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Actively participated in office operations, including code reviews, where I provided constructive feedback to fellow developers, contributing to a culture of continuous improvement.',
+    ],
+  },
+  {
+    title: 'Freelancing',
+    company_name: 'Fiverr',
+    icon: fiverr,
+    iconBg: '#ffffff',
     date: 'Feb 2022 - Feb 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Efficiently managed freelance projects on Fiverr, specializing in WordPress website management and development.',
+      'Skillfully utilized React.js and related technologies to deliver high-quality web solutions.',
+      'Collaborated with clients to ensure project success, incorporating responsive design principles and ensuring cross-browser compatibility. ',
+      'Actively engaged in providing feedback and guidance to clients, fostering positive working relationships and achieving outstanding results.',
     ],
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'MERN',
-    icon: mongodb,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    title: 'Content Writer',
+    company_name: 'GadgetGang (UK)',
+    icon: gg,
+    iconBg: '#ffffff',
+    date: 'May 2022 - Febuary 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Client satisfaction and retention: Highlight positive feedback or testimonials from clients or employers, demonstrating your ability to meet their content needs and maintain strong working relationships.',
+      'Content engagement metrics: Share specific metrics such as increased social media shares, comments, or user engagement with your articles or blog posts.',
+      "Improved search engine rankings: Highlight instances where your content helped improve the website's visibility on search engine result pages (SERPs), leading to higher organic traffic and visibility.",
+      'Client satisfaction and retention: Showcase positive client feedback and testimonials to demonstrate your ability to meet content needs and maintain strong relationships.',
     ],
   },
 ]
@@ -194,58 +180,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'ABT Nation',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
     tags: [
       {
-        name: 'react',
+        name: 'crm',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'wordpress',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: abt,
+    source_code_link: 'https://abtnation.com',
+  },
+  {
+    name: 'Graphixon',
+    description:
+      'A website showcasing Graphxion, a Middle-East based agency specializing in graphic design for Esports organizations. They deliver top-notch thumbnails to creators.',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'javascript',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: graphixon,
+    source_code_link: 'https://graphixon.com',
   },
   {
-    name: 'Job IT',
+    name: 'Realtime Age Calculator',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A real-time age calculator built using React that displays your current age. It continuously updates your age every millisecond, ensuring the accuracy of your age.',
     tags: [
       {
-        name: 'react',
+        name: 'reactjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
+        name: 'nodejs',
         color: 'green-text-gradient',
       },
       {
@@ -253,8 +235,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: rac,
+    source_code_link: 'https://realtime-age-calculator.netlify.app',
   },
 ]
 

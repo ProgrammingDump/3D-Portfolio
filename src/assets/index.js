@@ -20,7 +20,14 @@ import redux from './tech/redux.png'
 import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
+import gg from './gg.png'
+import fiverr from './fiverr.png'
 
+import qrm from './qrm.png'
+import auses from './auses.jpg'
+import rac from './rac.png'
+import graphixon from './graphixon.png'
+import abt from './abtnation.png'
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
@@ -43,6 +50,13 @@ export {
   docker,
   figma,
   git,
+  gg,
+  auses,
+  qrm,
+  rac,
+  graphixon,
+  abt,
+  fiverr,
   html,
   javascript,
   mongodb,
