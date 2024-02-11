@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
-import { service_key, template_key, emailjs_key } from './API_KEY'
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
@@ -33,8 +32,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        service_key,
-        template_key,
+        import.meta.env.REACT_APP_SERVICE_KEY,
+        import.meta.env.REACT_APP_TEMPLATE_KEY,
         {
           from_name: form.name,
           to_name: 'Sherdil',
@@ -42,7 +41,7 @@ const Contact = () => {
           to_email: 'sherdilk12@gmail.com',
           message: form.message,
         },
-        emailjs_key
+        import.meta.env.REACT_APP_EMAILJS_KEY
       )
       .then(
         () => {
