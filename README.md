@@ -52,7 +52,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
+git clone git@github.com:ProgrammingDump/3D-Portfolio.git
 cd project_3D_developer_portfolio
 ```
 
