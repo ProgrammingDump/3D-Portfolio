@@ -57,14 +57,10 @@ const Contact = () => {
     setLoading(true)
     console.log('email sent')
 
-    const serviceKey = import.meta.env.REACT_APP_SERVICE_KEY
-    const templateKey = import.meta.env.REACT_APP_TEMPLATE_KEY
-    const emailjsKey = import.meta.env.REACT_APP_EMAILJS_KEY
-
     emailjs
       .send(
-        serviceKey,
-        templateKey,
+        import.meta.env.REACT_APP_SERVICE_KEY,
+        import.meta.env.REACT_APP_TEMPLATE_KEY,
         {
           from_name: form.name,
           to_name: 'Sherdil',
@@ -72,7 +68,7 @@ const Contact = () => {
           to_email: 'sherdilk12@gmail.com',
           message: form.message,
         },
-        emailjsKey
+        import.meta.env.REACT_APP_EMAILJS_KEY
       )
       .then(
         () => {
