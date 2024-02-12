@@ -10,8 +10,10 @@ import {
   nodejs,
   mongodb,
   git,
+  wordpress,
   auses,
   rac,
+  java,
   graphixon,
   abt,
   qrm,
@@ -29,6 +31,10 @@ export const navLinks = [
     title: 'Work',
   },
   {
+    id: 'feedbacks',
+    title: 'Testimonials',
+  },
+  {
     id: 'contact',
     title: 'Contact',
   },
@@ -37,15 +43,15 @@ export const navLinks = [
 const services = [
   {
     title: 'Web Developer',
-    icon: html,
-  },
-  {
-    title: 'Front-End Developer',
     icon: reactjs,
   },
   {
-    title: 'Back-End Developer',
-    icon: nodejs,
+    title: 'WordPress Developer',
+    icon: wordpress,
+  },
+  {
+    title: 'Application Developer',
+    icon: java,
   },
   {
     title: 'Software Engineer',

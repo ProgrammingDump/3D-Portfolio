@@ -5,6 +5,8 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const Contact = () => {
   const formRef = useRef()
@@ -26,14 +28,43 @@ const Contact = () => {
     })
   }
 
+  const toastNotify = () =>
+    toast('Email Sent!', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'dark',
+    })
+
+  const toastError = () =>
+    toast.error('Something went wrong.. Oops', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'dark',
+    })
+
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true)
+    console.log('email sent')
+
+    const serviceKey = import.meta.env.REACT_APP_SERVICE_KEY
+    const templateKey = import.meta.env.REACT_APP_TEMPLATE_KEY
+    const emailjsKey = import.meta.env.REACT_APP_EMAILJS_KEY
 
     emailjs
       .send(
-        import.meta.env.REACT_APP_SERVICE_KEY,
-        import.meta.env.REACT_APP_TEMPLATE_KEY,
+        serviceKey,
+        templateKey,
         {
           from_name: form.name,
           to_name: 'Sherdil',
@@ -41,24 +72,22 @@ const Contact = () => {
           to_email: 'sherdilk12@gmail.com',
           message: form.message,
         },
-        import.meta.env.REACT_APP_EMAILJS_KEY
+        emailjsKey
       )
       .then(
         () => {
           setLoading(false)
-          alert('Thank you. I will get back to you as soon as possible.')
-
           setForm({
             name: '',
             email: '',
             message: '',
           })
+          toastNotify()
         },
         (error) => {
           setLoading(false)
           console.error(error)
-
-          alert('Ahh, something went wrong. Please try again.')
+          toastError()
         }
       )
   }
@@ -91,13 +120,13 @@ const Contact = () => {
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Your Email</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder='Enter your emaill here.'
+              placeholder='Enter your email here.'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -118,6 +147,18 @@ const Contact = () => {
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? 'Sending...' : 'Send'}
+            <ToastContainer
+              position='top-right'
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme='dark'
+            />
           </button>
         </form>
       </motion.div>
