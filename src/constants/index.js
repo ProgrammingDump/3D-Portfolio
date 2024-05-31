@@ -118,7 +118,7 @@ const experiences = [
   },
   {
     title: 'Management Trainee',
-    company_name: 'Freelancer',
+    company_name: 'Quality Resource Marketing',
     icon: qrm,
     iconBg: '#ffffff',
     date: 'Jul 2023 - Sept 2023',
@@ -134,7 +134,7 @@ const experiences = [
     company_name: 'Fiverr',
     icon: fiverr,
     iconBg: '#ffffff',
-    date: 'Feb 2022 - Feb 2023',
+    date: 'Feb 2022 - Present',
     points: [
       'Efficiently managed freelance projects on Fiverr, specializing in WordPress website management and development.',
       'Skillfully utilized React.js and related technologies to deliver high-quality web solutions.',
@@ -160,27 +160,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
+      'I thought it was impossible to make a website as beautiful as our product, but Sherdil proved me wrong.',
+    name: 'Abdul Wahab Malik',
     designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    company: 'Neutra News',
+    image: 'https://media.licdn.com/dms/image/D4D03AQEBQQ6ntZ__7A/profile-displayphoto-shrink_800_800/0/1672033044640?e=1722470400&v=beta&t=g_HWsTKgwt8SwlJOtTP_fsDcGkRE1UVZGMigkYw_Ypo',
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Sherdil does.",
+    name: 'Ashar Ali',
+    designation: 'Associate',
+    company: 'Productbox',
+    image: 'https://media.licdn.com/dms/image/C5603AQGloupzc4XUkw/profile-displayphoto-shrink_800_800/0/1642695637268?e=1722470400&v=beta&t=gpBW6e7f2X1iwP421uGfMGceEXmmF3uiQ0sZ_KfqLmk',
+  },
+  {
+    testimonial:
+      "After Sher optimized our website, it;s loadeding time decreased by 50%. We can't thank him enough!",
+    name: 'Muhammad Wasil Butt',
+    designation: 'Associate',
+    company: 'Ideofuzion',
+    image: 'https://media.licdn.com/dms/image/D4E03AQGcbpiMcgjxAA/profile-displayphoto-shrink_800_800/0/1700847232565?e=1722470400&v=beta&t=FFokvcygb0KO1qA3zK1tIITuMg2pMCtDdKECH9Hb4cI',
   },
 ]
 
@@ -221,7 +221,7 @@ const projects = [
       },
     ],
     image: graphixon,
-    source_code_link: 'https://graphixon.com',
+    source_code_link: '#',
   },
   {
     name: 'Realtime Age Calculator',
