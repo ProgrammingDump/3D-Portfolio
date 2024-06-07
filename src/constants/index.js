@@ -176,7 +176,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Sher optimized our website, it;s loadeding time decreased by 50%. We can't thank him enough!",
+      "After Sherdil optimized our website, it's loading time decreased by 50%. We can't thank him enough!",
     name: 'Muhammad Wasil Butt',
     designation: 'Associate',
     company: 'Ideofuzion',

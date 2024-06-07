@@ -55,12 +55,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true)
-    console.log('email sent')
 
     emailjs
       .send(
-        import.meta.env.REACT_APP_SERVICE_KEY,
-        import.meta.env.REACT_APP_TEMPLATE_KEY,
+        import.meta.env.VITE_SERVICE_KEY,
+        import.meta.env.VITE_APP_TEMPLATE_KEY,
         {
           from_name: form.name,
           to_name: 'Sherdil',
@@ -68,10 +67,10 @@ const Contact = () => {
           to_email: 'sherdilk12@gmail.com',
           message: form.message,
         },
-        import.meta.env.REACT_APP_EMAILJS_KEY
+        import.meta.env.VITE_APP_EMAILJS_KEY
       )
       .then(
-        () => {
+        (response) => {
           setLoading(false)
           setForm({
             name: '',
@@ -79,6 +78,7 @@ const Contact = () => {
             message: '',
           })
           toastNotify()
+          console.log('SUCCESS!', response?.status, response?.text);
         },
         (error) => {
           setLoading(false)
@@ -143,20 +143,20 @@ const Contact = () => {
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? 'Sending...' : 'Send'}
-            <ToastContainer
-              position='top-right'
-              autoClose={5000}
-              hideProgressBar={false}
-              newestOnTop={false}
-              closeOnClick
-              rtl={false}
-              pauseOnFocusLoss
-              draggable
-              pauseOnHover
-              theme='dark'
-            />
           </button>
         </form>
+        <ToastContainer
+          position='top-right'
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme='dark'
+        />
       </motion.div>
 
       <motion.div
