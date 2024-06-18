@@ -66,9 +66,9 @@ npm install
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
-const emailjs_key=your_emailjs_user_id
-const service_key=your_emailjs_template_id
-const service_key=your_service_key
+VITE_SERVICE_KEY = your_service_key
+VITE_APP_TEMPLATE_KEY = your_template_key
+VITE_APP_EMAILJS_KEY = your_emailjs_key
 ```
 
 Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
