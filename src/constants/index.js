@@ -19,6 +19,9 @@ import {
 	qrm,
 	threejs,
 	github,
+	asharali,
+	wasil,
+	wahab,
 } from '../assets'
 
 export const navLinks = [
@@ -164,8 +167,7 @@ const testimonials = [
 		name: 'Abdul Wahab Malik',
 		designation: 'CTO',
 		company: 'Neutra News',
-		image:
-			'https://media.licdn.com/dms/image/D4D03AQEBQQ6ntZ__7A/profile-displayphoto-shrink_800_800/0/1672033044640?e=1722470400&v=beta&t=g_HWsTKgwt8SwlJOtTP_fsDcGkRE1UVZGMigkYw_Ypo',
+		image: wahab,
 	},
 	{
 		testimonial:
@@ -173,8 +175,7 @@ const testimonials = [
 		name: 'Ashar Ali',
 		designation: 'Associate',
 		company: 'Productbox',
-		image:
-			'https://media.licdn.com/dms/image/C5603AQGloupzc4XUkw/profile-displayphoto-shrink_800_800/0/1642695637268?e=1722470400&v=beta&t=gpBW6e7f2X1iwP421uGfMGceEXmmF3uiQ0sZ_KfqLmk',
+		image: asharali,
 	},
 	{
 		testimonial:
@@ -182,8 +183,7 @@ const testimonials = [
 		name: 'Muhammad Wasil Butt',
 		designation: 'Associate',
 		company: 'Ideofuzion',
-		image:
-			'https://media.licdn.com/dms/image/D4E03AQGcbpiMcgjxAA/profile-displayphoto-shrink_800_800/0/1700847232565?e=1722470400&v=beta&t=FFokvcygb0KO1qA3zK1tIITuMg2pMCtDdKECH9Hb4cI',
+		image: wasil,
 	},
 ]
 
