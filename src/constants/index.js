@@ -13,12 +13,14 @@ import {
 	wordpress,
 	auses,
 	rac,
+	neutranews,
 	java,
 	planlegion,
 	abt,
 	qrm,
 	threejs,
 	github,
+	wenhub,
 	asharali,
 	wasil,
 	wahab,
@@ -45,16 +47,12 @@ export const navLinks = [
 
 const services = [
 	{
-		title: 'Web Developer',
+		title: 'MERN Developer',
 		icon: reactjs,
 	},
 	{
 		title: 'WordPress Developer',
 		icon: wordpress,
-	},
-	{
-		title: 'Application Developer',
-		icon: java,
 	},
 	{
 		title: 'Software Engineer',
@@ -107,11 +105,11 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'Web Developer',
-		company_name: 'AUSES',
-		icon: auses,
-		iconBg: '#162832',
-		date: 'Oct 2023 - Present',
+		title: 'Junior Frontend Web Developer',
+		company_name: 'Wenhub',
+		icon: wenhub,
+		iconBg: '#ffffff',
+		date: 'July 2024 - Present',
 		points: [
 			'Developing and maintaining web applications using React.js and other related technologies.',
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -130,32 +128,6 @@ const experiences = [
 			'Collaborating with skillfull individuals including designers, product managers, and other developers to create high-quality products.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
 			'Actively participated in office operations, including code reviews, where I provided constructive feedback to fellow developers, contributing to a culture of continuous improvement.',
-		],
-	},
-	{
-		title: 'Freelancing',
-		company_name: 'Fiverr',
-		icon: fiverr,
-		iconBg: '#ffffff',
-		date: 'Feb 2022 - Present',
-		points: [
-			'Efficiently managed freelance projects on Fiverr, specializing in WordPress website management and development.',
-			'Skillfully utilized React.js and related technologies to deliver high-quality web solutions.',
-			'Collaborated with clients to ensure project success, incorporating responsive design principles and ensuring cross-browser compatibility. ',
-			'Actively engaged in providing feedback and guidance to clients, fostering positive working relationships and achieving outstanding results.',
-		],
-	},
-	{
-		title: 'Content Writer',
-		company_name: 'GadgetGang (UK)',
-		icon: gg,
-		iconBg: '#ffffff',
-		date: 'May 2022 - Febuary 2023',
-		points: [
-			'Client satisfaction and retention: Highlight positive feedback or testimonials from clients or employers, demonstrating your ability to meet their content needs and maintain strong working relationships.',
-			'Content engagement metrics: Share specific metrics such as increased social media shares, comments, or user engagement with your articles or blog posts.',
-			"Improved search engine rankings: Highlight instances where your content helped improve the website's visibility on search engine result pages (SERPs), leading to higher organic traffic and visibility.",
-			'Client satisfaction and retention: Showcase positive client feedback and testimonials to demonstrate your ability to meet content needs and maintain strong relationships.',
 		],
 	},
 ]
@@ -179,8 +151,8 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"After Sherdil optimized our website, it's loading time decreased by 50%. We can't thank him enough!",
-		name: 'Muhammad Wasil Butt',
+			"After the onboarding of Sherdil, we have observed significant success in our projects' development.",
+		name: 'Muhammad Wasil',
 		designation: 'Associate',
 		company: 'Ideofuzion',
 		image: wasil,
@@ -188,6 +160,27 @@ const testimonials = [
 ]
 
 const projects = [
+	{
+		name: 'Neutra News',
+		description:
+			'A web based application that aggregates and analyzes news articles from various sources, providing users with a comprehensive view of current events.',
+		tags: [
+			{
+				name: 'nextjs',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'python',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'tailwind',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: neutranews,
+		source_code_link: 'https://neutranews.com',
+	},
 	{
 		name: 'ABT Nation',
 		description:
@@ -198,33 +191,16 @@ const projects = [
 				color: 'blue-text-gradient',
 			},
 			{
+				name: 'elementor',
+				color: 'pink-text-gradient',
+			},
+			{
 				name: 'wordpress',
 				color: 'green-text-gradient',
 			},
 		],
 		image: abt,
 		source_code_link: 'https://abtnation.com',
-	},
-	{
-		name: 'Realtime Age Calculator',
-		description:
-			'A real-time age calculator built using React that displays your current age. It continuously updates your age every millisecond, ensuring the accuracy of your age.',
-		tags: [
-			{
-				name: 'reactjs',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'nodejs',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'css',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: rac,
-		source_code_link: 'https://realtime-age-calculator.netlify.app',
 	},
 	{
 		name: 'Plan Legion',
@@ -236,7 +212,7 @@ const projects = [
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'css',
+				name: 'tailwind',
 				color: 'green-text-gradient',
 			},
 			{

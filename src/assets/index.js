@@ -28,12 +28,14 @@ import fiverr from './fiverr.png'
 import qrm from './qrm.png'
 import auses from './auses.jpg'
 import rac from './rac.png'
+import neutranews from './neutranews.png'
 import planlegion from './planlegion.png'
 import abt from './abtnation.png'
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
+import wenhub from './wenhub.jpg'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -54,6 +56,7 @@ export {
 	close,
 	css,
 	docker,
+	neutranews,
 	figma,
 	git,
 	gg,
@@ -63,6 +66,7 @@ export {
 	planlegion,
 	abt,
 	fiverr,
+	wenhub,
 	html,
 	wordpress,
 	java,
