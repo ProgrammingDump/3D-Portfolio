@@ -30,12 +30,18 @@ import auses from './auses.jpg'
 import rac from './rac.png'
 import neutranews from './neutranews.png'
 import planlegion from './planlegion.png'
+import carrd from './carrd.png'
 import abt from './abtnation.png'
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
 import wenhub from './wenhub.jpg'
+import buildx from './buildx.png'
+import annotto from './annotto.jpg'
+import portfolio from './portfolio.png'
+import kirkversary from './kirkversary.png'
+import stolen_guitars from './stolen_guitars.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -61,10 +67,12 @@ export {
 	git,
 	gg,
 	auses,
+	abt,
 	qrm,
 	rac,
+	annotto,
+	buildx,
 	planlegion,
-	abt,
 	fiverr,
 	wenhub,
 	html,
@@ -72,6 +80,10 @@ export {
 	java,
 	javascript,
 	mongodb,
+	kirkversary,
+	portfolio,
+	stolen_guitars,
+	carrd,
 	nodejs,
 	reactjs,
 	redux,

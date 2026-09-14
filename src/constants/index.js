@@ -2,8 +2,6 @@ import {
 	javascript,
 	html,
 	css,
-	gg,
-	fiverr,
 	reactjs,
 	redux,
 	tailwind,
@@ -11,12 +9,15 @@ import {
 	mongodb,
 	git,
 	wordpress,
-	auses,
-	rac,
+	buildx,
+	annotto,
 	neutranews,
-	java,
-	planlegion,
 	abt,
+	planlegion,
+	kirkversary,
+	portfolio,
+	carrd,
+	stolen_guitars,
 	qrm,
 	threejs,
 	github,
@@ -105,11 +106,35 @@ const technologies = [
 
 const experiences = [
 	{
+		title: 'Team Lead',
+		company_name: 'Annotto',
+		icon: annotto,
+		iconBg: '#ffffff',
+		date: 'Jan 2023 - Present',
+		points: [
+			'Streamlined task allocation and progress tracking, contributing to improved project turnaround times.',
+			'Trained and mentored new team members, helping maintain productivity and quality standards.',
+			'Led and coordinated a team to ensure projects were completed on time and met quality standards.',
+		],
+	},
+	{
+		title: 'Junior Software Engineer',
+		company_name: 'Buildx',
+		icon: buildx,
+		iconBg: '#3435ce',
+		date: 'June 2026 - Sept 2026',
+		points: [
+			'Troubleshot and resolved 20+ user‑reported issues, reducing downtime and improving user satisfaction.',
+			'Conducted peer code reviews, ensuring adherence to best practices and improving overall code quality.',
+			'Optimized page load times by ~30% through responsive design techniques and bundle size reductions.',
+		],
+	},
+	{
 		title: 'Junior Frontend Web Developer',
 		company_name: 'Wenhub',
 		icon: wenhub,
 		iconBg: '#ffffff',
-		date: 'July 2024 - Present',
+		date: 'July 2024 - Jan 2026',
 		points: [
 			'Developing and maintaining web applications using React.js and other related technologies.',
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -125,7 +150,7 @@ const experiences = [
 		date: 'Jul 2023 - Sept 2023',
 		points: [
 			'Engaged in managing WordPress websites, proficiently leveraging React.js and associated technologies for ongoing development and maintenance tasks.',
-			'Collaborating with skillfull individuals including designers, product managers, and other developers to create high-quality products.',
+			'Collaborating with skilled professionals including designers, product managers, and other developers to create high-quality products.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
 			'Actively participated in office operations, including code reviews, where I provided constructive feedback to fellow developers, contributing to a culture of continuous improvement.',
 		],
@@ -161,6 +186,83 @@ const testimonials = [
 
 const projects = [
 	{
+		name: 'Kirkversary Calendar',
+		description:
+			'A web app that allows users to keep up with the Kirkversary Calendar and see their age according to it.',
+		tags: [
+			{
+				name: 'reactjs',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'tailwind',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: kirkversary,
+		source_code_link: 'https://github.com/ProgrammingDump/Kirkversary',
+	},
+	{
+		name: 'Guns.lol Carrd Clone',
+		description:
+			'A clone of the Guns.lol Carrd website, built using React.js and Tailwind CSS, showcasing my ability to replicate complex designs and functionality.',
+		tags: [
+			{
+				name: 'nextjs',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'tailwind',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: carrd,
+		source_code_link: 'https://github.com/ProgrammingDump/carrd',
+	},
+	{
+		name: '3D Portfolio',
+		description:
+			'A 3D portfolio website that showcases 3D models and animations, providing a visually stunning experience for users.',
+		tags: [
+			{
+				name: 'threejs',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'reactjs',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'tailwind',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: portfolio,
+		source_code_link: 'https://github.com/ProgrammingDump/3D-Portfolio',
+	},
+
+	{
+		name: 'Stolen Guitars',
+		description:
+			'A web app that allows users to report and search for stolen guitars, helping musicians recover their instruments.',
+		tags: [
+			{
+				name: 'nextjs',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'tanstack-store',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'tailwind',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: stolen_guitars,
+		source_code_link: 'https://github.com/ProgrammingDump/StolenGuitars',
+	},
+	{
 		name: 'Neutra News',
 		description:
 			'A web based application that aggregates and analyzes news articles from various sources, providing users with a comprehensive view of current events.',
@@ -179,28 +281,7 @@ const projects = [
 			},
 		],
 		image: neutranews,
-		source_code_link: 'https://neutra-news.vercel.app/',
-	},
-	{
-		name: 'ABT Nation',
-		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-		tags: [
-			{
-				name: 'crm',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'elementor',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'wordpress',
-				color: 'green-text-gradient',
-			},
-		],
-		image: abt,
-		source_code_link: 'https://abtnation.com',
+		source_code_link: '#',
 	},
 	{
 		name: 'Plan Legion',
@@ -221,7 +302,7 @@ const projects = [
 			},
 		],
 		image: planlegion,
-		source_code_link: 'https://planlegion.com',
+		source_code_link: '#',
 	},
 ]
 
