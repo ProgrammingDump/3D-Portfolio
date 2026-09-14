@@ -179,7 +179,7 @@ const projects = [
 			},
 		],
 		image: neutranews,
-		source_code_link: 'https://neutranews.com',
+		source_code_link: 'https://neutra-news.vercel.app/',
 	},
 	{
 		name: 'ABT Nation',
