@@ -7,6 +7,8 @@ import github from './github.png'
 import menu from './menu.svg'
 import close from './close.svg'
 
+import herographic from './herographic.png'
+
 import wordpress from './wordpress.png'
 import java from './java.png'
 import css from './tech/css.png'
@@ -100,4 +102,5 @@ export {
 	asharali,
 	wasil,
 	wahab,
+	herographic,
 }

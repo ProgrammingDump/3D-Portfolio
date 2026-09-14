@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
+import HeroGraphic from '../components/canvas/HeroGraphic'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { ToastContainer, toast } from 'react-toastify'
@@ -90,7 +91,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`flex w-[1152px] overflow-hidden`}
     >
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
@@ -162,12 +163,6 @@ const Contact = () => {
         />
       </motion.div>
 
-      <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div>
     </div>
   )
 }
