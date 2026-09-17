@@ -91,7 +91,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`flex w-[1152px] overflow-hidden`}
+      className={`flex max-w-[1152px] overflow-hidden`}
     >
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
